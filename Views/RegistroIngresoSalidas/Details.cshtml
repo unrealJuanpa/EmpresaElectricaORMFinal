@@ -1,0 +1,42 @@
+﻿@model EmpresaElectricaORMFinal.Models.RegistroIngresoSalida
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>RegistroIngresoSalida</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.empleado.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.empleado.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaHoraIngreso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaHoraIngreso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaHoraSalida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaHoraSalida)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

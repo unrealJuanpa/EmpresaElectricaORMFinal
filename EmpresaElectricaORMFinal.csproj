@@ -127,8 +127,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AsignarTareasController.cs" />
     <Compile Include="Controllers\EmpleadoesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RegistroControlsController.cs" />
+    <Compile Include="Controllers\RegistroIngresoSalidasController.cs" />
     <Compile Include="Controllers\TipoControlsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -187,6 +190,21 @@
     <Content Include="Views\TipoControls\Details.cshtml" />
     <Content Include="Views\TipoControls\Edit.cshtml" />
     <Content Include="Views\TipoControls\Index.cshtml" />
+    <Content Include="Views\RegistroIngresoSalidas\Create.cshtml" />
+    <Content Include="Views\RegistroIngresoSalidas\Delete.cshtml" />
+    <Content Include="Views\RegistroIngresoSalidas\Details.cshtml" />
+    <Content Include="Views\RegistroIngresoSalidas\Edit.cshtml" />
+    <Content Include="Views\RegistroIngresoSalidas\Index.cshtml" />
+    <Content Include="Views\AsignarTareas\Create.cshtml" />
+    <Content Include="Views\AsignarTareas\Delete.cshtml" />
+    <Content Include="Views\AsignarTareas\Details.cshtml" />
+    <Content Include="Views\AsignarTareas\Edit.cshtml" />
+    <Content Include="Views\AsignarTareas\Index.cshtml" />
+    <Content Include="Views\RegistroControls\Create.cshtml" />
+    <Content Include="Views\RegistroControls\Delete.cshtml" />
+    <Content Include="Views\RegistroControls\Details.cshtml" />
+    <Content Include="Views\RegistroControls\Edit.cshtml" />
+    <Content Include="Views\RegistroControls\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
